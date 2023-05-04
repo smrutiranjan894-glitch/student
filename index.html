@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>VSSUT CSE</title>
+        <script src="index.js" async></script>
+        <!-- <script>
+      const suvasini_panigrahi = {
+        getDetails: function() {
+          return "Dr. Suvasini Panigrahi is a professor of Computer Science with over 10 years of teaching experience.";
+        }
+      };
+  
+      function toggleContent() {
+        const content = document.querySelector(".content");
+        content.classList.toggle("active");
+      } -->
+      <script>
+  // function toggleContent() {
+  //   const content = document.querySelector(".content");
+  //   content.classList.toggle("active");
+  // }
+
+  function toggleContent(index) {
+  const content = document.getElementsByClassName("content")[index-1];
+  if (content.style.display === "block") {
+    content.style.display = "none";
+  } else {
+    content.style.display = "block";
+  }
+}
+
+  const facultyList = [
+    {
+      name: "Prof. Amiya Kumar Rath",
+      designation: "Professor (On Deputation)",
+      photo: "images/faculty_photos/amiya_rath.jpg"
+    },
+    {
+      name: "Prof. Manas Ranjan Kabat",
+      designation: "Professor",
+      photo: "images/faculty_photos/manas-ranjan-kabat_photo1648148453.jpg"
+    },
+    {
+      name: "Dr. Rakesh Mohanty",
+      designation: "Associate Professor",
+      photo: "images/faculty_photos/rakesh-mohanty.jpg"
+    },
+    {
+      name: "Dr. Suvasini Panigrahi",
+      designation: "Associate Professor & Head",
+      photo: "images/faculty_photos/suvasini-panigrahi_photo1483483429.jpg"
+    },
+    {
+      name: "Mr. Satya Prakash Sahoo",
+      designation: "Assistant Professor",
+      photo: "images/faculty_photos/satya-prakash-sahoo.jpg"
+    },
+    {
+      name: "Ms. Sumitra Kisan",
+      designation: "Assistant Professor",
+      photo: "images/faculty_photos/sumitra-kisan1409966677.jpg"
+    },
+    {
+      name: "Dr. Santosh Kumar Majhi",
+      designation: "Assistant Professor",
+      photo: "images/faculty_photos/sumitra-kisan1409966677.jpg"
+    },
+    {
+      name: "Ms. ALINA MISHRA",
+      designation: "Assistant Professor",
+      photo: "images/faculty_photos/sumitra-kisan1409966677.jpg"
+    },
+    {
+      name: "Dr. (Mrs.) Santi Behera",
+      designation: "Assistant Professor",
+      photo: "images/faculty_photos/sumitra-kisan1409966677.jpg"
+    },
+    {
+      name: "Ms. Alina Dash",
+      designation: "Assistant Professor",
+      photo: "images/faculty_photos/sumitra-kisan1409966677.jpg"
+    }]
+        </script>
+        
+        <link rel="stylesheet" href="style.css">
+        <link href="images/vssut.jpg" rel="icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        
+        <!-- <script src="runner.js"></script> -->
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/Logo_vssut.svg.png"></a>
+                <div class="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="http://localhost/attendance-php/attendance-php/" target="_blank">ATTENDANCE</a></li>
+                        <li><a href="faculties.html">FACULTIES</a></li>
+                        <li><a href="">SUBJECTS</a></li>
+                        <li><a href="findus.html">FIND US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+<div class="text-box">
+    <h1>
+        Veer Surendra Sai University of Technology, Burla
+    </h1>
+    <p>The Department of Computer Science and Engineering, Veer Surendra Sai University of Technology<br> (Formerly University College of Engineering: Burla, Estd-1956), was established in 1994</p>
+    <a href=" " class="hero-btn">VISIT US TO KNOW MORE</a>
+</div>
+   
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       
+
+    
+<!-------------ABOUT---------->
+<section class="about">
+  
+    <h1><b>ABOUT VSSUT AND COMPUTER SCIENCE AND ENGINEERING</b></h1>
+    <br>
+    <br>
+
+    <p><b>The Veer Surendra Sai University of Technology (VSSUT) Odisha was formed by Orissa Act 9 of 2009 by converting University College of Engineering (UCE), Burla to a non-affiliating Unitary University and came into force by issue of notification by the Industries Department, Government of Odisha from 1st day of July 2009(Vide memo No.IV/TTI-33/2009-8553 and 8564 dtd.10th June 2009. The 1st Statutes of VSSUT, Burla 2010 has been approved by the Odisha Government vide Industry Department notification No.V-FE-II-01/2010/8697 dated 21st June, 2010. This State Government University is also recognized by University Grants Commission (UGC), New Delhi vide UGC letter No.. F.9-36/2009(CPP-I) dtd.5th Jan 2010. The University is empowered to award degrees as specified by the UGC under section 22 of the UGC Act. The University has been declared eligible to receive central assistance under Section 12B of the UGC Act vide letter F.No.9-36/2009(CPP-I/PU) dated 8th November, 2012.</b></p>
+    <br>
+    <br>
+    <img src="images/comp_home.jpg" width="600px" height="400px">
+    <img src="images/photo_1311130509060.jpg" width="600px" height="400px">
+
+</section>
+<br>
+<br>
+
+ 
+<!-------------FACULTIES---------->
+<section class="HOD">
+<div class="sec-title">
+  <h2><span>Head Of the Department's Message</span></h2>
+</div>
+<div class="department">
+  <div class="hod">
+    <div class="hod-dp"><img src="images/faculty_photos/suvasini-panigrahi_photo1483483429.jpg" alt="Vice Chancellor VSSUT" width="250px" height="300px"></div>
+    <div class="hod-details">
+      <h4>Dr. Suvasini Panigrahi</h4>
+      <h5>HOD, CSE Dept, VSSUT</h5>
+      <p>
+        <!--<a href="tel:+919437572477">+91-9437572477</a>--> <a href="tel:(0663)-2430211">(0663)-2430211</a> <a
+          href="mailto:hod_cse@vssut.ac.in">vc@vssut.ac.in</a>
+      </p>
+      <!--<div class="faculties-browse-profile" style="display:inline-block">-->
+      <!--<a href="http://vssut.ac.in/doc/VC_Message.pdf" target="_blank">-->
+      <!--<a href="http://www.vssut.ac.in/faculty-profile.php?furl=bibhuti-bhusan-pati" target="_blank">&raquo; Browse Profile</a></div>-->
+    </div>
+  </div>
+</div>
+<div class="innerpage-box">
+  <p>The Department of Computer Science and Engineering, Veer Surendra Sai University of Technology (Formerly University College of Engineering: Burla, Estd-1956), was established in 1994 and at present offers the following four years undergraduate programmes, two years Master Degree programmes and Doctoral Degree Programme as follows</p>
+  <ul>
+    B.Tech. degree in Computer Sc. & Engineering (1994)</ul>
+    <ul> M.Tech degree in Computer Science & Engineering ( 2008)</ul>
+    <ul> Ph.D. degree in Computer Science & Engineering (2011 )</ul>
+  <p>
+    It has produced high quality technocrats for the last few decades to cater to the needs of hardware and software industry, R&D organizations, and academic Institutions. The department has been accredited for 3 years since 2006 by AICTE  with the extension of U.G.C. conferred academic autonomy. The syllabi of the Department are updated with many advanced courses to enable students to keep themselves at par with the cutting edge-technology. The teaching in the department emphasizes on fundamental principles, development of creative thinking and the analytical ability to solve real life problems. The Department also encourages its students to engage in extra-curricular and co-curricular activities, personality development, developing team spirit, and developing organizational skills. The Faculty members of the department are involved in diversified advanced research areas like: 
+  </p>
+  <br>
+  <br>
+  
+  <br>
+  
+  <br>
+
+</div>
+</section>
+
+<!--------------------footer------------->
+<section class="footer">
+    <h3>About Us</h3>
+    <p>
+        This is the website for Computer Sceince And Engineering Dept. of VSSUT , Burla which helps teachers to take the attendance and the students to see their attendance
+    </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <div class="credit">&copy; copyright @ 2022 by <span>NO ONE</span> | all rights reserved!</div>
+</section>
+    </body>
+</html>
